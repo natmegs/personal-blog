@@ -6,13 +6,13 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="{{site.baseurl}}{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
-  <link rel="stylesheet" href="{{site.baseurl}}{{ "/assets/grid.css" | relative_url }}">
-  <link rel="stylesheet" href="{{site.baseurl}}{{ "/assets/custom.css" | relative_url }}">
-  <link rel="canonical" href="{{site.baseurl}}/{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/grid.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/custom.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{site.baseurl}}/{{ "/feed.xml" | relative_url }}">
 
   <!-- <link rel="stylesheet" type="text/css" href="{{ "/assets/jquery.pagepiling.css" | relative_url }}" /> -->
