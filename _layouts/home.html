@@ -118,7 +118,7 @@ layout: default
 
   <div class="work-example">
     <div class="work-image">
-      <a href="http://thepartyonhighstreet.com/" target="_blank"><img src="/assets/images/tpohs.png"/></a>
+      <a href="http://thepartyonhighstreet.com/" target="_blank"><img src="{{site.baseurl}}/assets/images/tpohs.png"/></a>
     </div>
     <div class="work-description text-center">
       <h4>The Party On High Street</h4>
@@ -152,7 +152,7 @@ layout: default
   <div class="posts">
     {% for p in site.posts %}
     <div class="each-post">
-      <a href="{{ p.url | relative_url }}">
+      <a href="{{site.baseurl}}/{{ p.url | relative_url }}">
         <h2>{{p.title}}</h2>
         <p>
           {{ p.excerpt }}

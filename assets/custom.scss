@@ -204,7 +204,7 @@ strong:hover {
 // ================================
 
 #home {
-  background-image: url(/assets/images/MaxBackground.JPG);
+  background-image: url({{site.baseurl}}/assets/images/MaxBackground.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
