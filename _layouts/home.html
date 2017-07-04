@@ -1,0 +1,211 @@
+---
+layout: default
+---
+
+<header class="fullpage center-text row" id="home">
+  <div class="text-center name"><h1>Natalie</h1> <h1>SMITH</h1></div>
+</header>
+
+<div class="section" id="bio">
+  <div class="title">
+    <h2>Bio</h2>
+    <h3>Full Stack Engineer</h3>
+  </div>
+
+  <div class="bio-detail">
+    <p>
+      I am a <strong>Canadian</strong> software developer living in sunny and congested <strong>Los Angeles</strong>.
+    </p>
+    <p>
+      I currently work at a Software and Security company developing the front end of a business management web
+      application using <strong>Angular</strong>.
+    </p>
+    <p>
+      I create highly interactive and <strong>reactive</strong> user interfaces to display and
+      manipulate large amounts of data by communicating with a REST API.
+    </p>
+    <p>
+      On the back end, my favorite language is <strong>Ruby</strong> and I love building websites and web applications
+      with <strong>Rails</strong>.
+    </p>
+  </div>
+  <div class="bio-detail">
+    <p>
+      I have a Bachelor of <strong>Engineering</strong> degree from the University of Victoria (Victoria, BC).
+    </p>
+    <p>
+      I majored in Biomedical Engineering and specialized in <strong>Mechatronics</strong>.
+    </p>
+    <p>
+      Several major projects involving firmware, microcontrollers, image processing, and machine learning
+      inspired my love of Software.
+    </p>
+  </div>
+  <div>
+    <p>
+      <strong>In my spare time I:</strong>
+    </p>
+    <p>
+      Olympic weightlift and crossfit;
+    </p>
+    <p>
+      get walked by my dog, Max;
+    </p>
+    <p>
+      expand my brunch and bakery prowess.
+    </p>
+  </div>
+</div>
+
+<div class="section" id="skills">
+  <div class="title line-after">
+    <h2>My Toolbox</h2>
+  </div>
+
+  <div class="skill-container">
+    <div class="skill-box">
+      <div class="skill-row row">
+        <p><span class="bold-skill">HTML5 / </span>CSS3</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">Angular / </span>Bootstrap</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">Ruby / </span>Rails</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">Javascript / </span>Typescript</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">Version Control / </span>Git</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">Reactive Programming / </span>RxJS</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">Build Tools / </span>Gulp</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">RESTful APIs / </span>MVC</p>
+      </div>
+      <div class="skill-row row">
+        <p><span class="bold-skill">C / </span>MatLab</p>
+      </div>
+    </div>
+
+    <!-- <div class="skill-box">
+      <img src="/assets/images/MaxJump.jpg"/>
+    </div> -->
+    <div class="skill-box" id="web-details">
+      <h3>This website was created using:</h3>
+      <p>
+        Jekyll, GitHub Pages
+      </p>
+      <p>
+        Nicole Smith's skilled graphic design talent
+      </p>
+      <p>
+        My dog's model services
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="work">
+  <div class="title line-after">
+    <h2>My Work</h2>
+  </div>
+
+  <div class="work-example">
+    <div class="work-image">
+      <a href="http://thepartyonhighstreet.com/" target="_blank"><img src="/assets/images/tpohs.png"/></a>
+    </div>
+    <div class="work-description text-center">
+      <h4>The Party On High Street</h4>
+      <h5>Band Website</h5>
+      <p>
+        Technologies: Ruby on Rails, Bootstrap, Heroku
+      </p>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+
+<div class="section" id="blog">
+  <div class="title">
+    <h2>Blog</h2>
+    <p>
+      There are <strong>so many</strong> smart people out there and I want to see/hear/read
+      what they have to say.
+    </p>
+    <p>
+      This is a place where I post the cool/interesting/useful content I have found that has
+      helped/intrigued me.
+    </p>
+    <p>
+      If I happen to solve a problem that smart people haven't already written about, I will do my
+      best to try to explain it here.
+    </p>
+    <h3>Let me know what you think!</h3>
+  </div>
+
+  <div class="posts">
+    {% for p in site.posts %}
+    <div class="each-post">
+      <a href="{{ p.url | relative_url }}">
+        <h2>{{p.title}}</h2>
+        <p>
+          {{ p.excerpt }}
+        </p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+
+<div class="section" id="contact">
+  <div class="title">
+    <h2>Contact</h2>
+    <p>
+      Interested in having a website or web application built?
+    </p>
+    <p>
+      Want to collaborate?
+    </p>
+    <p>
+      Know of any podcasts I should be listening to while I commute in LA traffic?
+    </p>
+    <h3>I would love to hear from you!</h3>
+  </div>
+  <div class="contact-icons">
+    <a href="mailto:nataliemegans@gmail.com" target="_blank"><i class="fa fa-envelope-o" id="email"></i></a>
+    <a href="https://www.linkedin.com/in/smithnm/" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a>
+    <a href="https://github.com/natmegs" target="_blank"><i class="fa fa-github" id="github"></i></a>
+    <a href="https://twitter.com/natalie_megan" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>
+    <a href="https://www.instagram.com/nataliemegans/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>
+  </div>
+</div>
+
+<!-- <div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div> -->
