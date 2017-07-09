@@ -152,9 +152,7 @@ layout: default
   <div class="posts">
     {% for p in site.posts %}
     <div class="each-post">
-      {{site.url}}
-      {{p.url}}
-      <a href="{{site.url}}{{p.url}">
+      <a href="{{p.url}">
         <h2>{{p.title}}</h2>
         <p>
           {{ p.excerpt }}
