@@ -2,7 +2,7 @@
 layout: post
 title:  "Is This How You Blog?"
 date:   2017-06-18 18:59:30 -0700
-permalink: /blog/:title
+permalink: {{site.url}}/blog/:title
 ---
 
 I’m a serial technical blog reader and have learned so much through the shared explanations and input of other developers. It’s ~~terrifying~~ intimidating to think about adding your voice to such a talented crowd but since I have found it so helpful to read others insights, this will be a thinking-out-loud place for my own learning in hopes that it will help someone else. Also serving the dual purpose of helping me organize my own thoughts....

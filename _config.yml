@@ -18,7 +18,7 @@ email: nataliemegans@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Natalie's personal website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "nataliesmith.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nataliemegans
 github_username:  natmegs
 
