@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "MEAN Dive"
+date:   2017-08-06 18:59:30 -0700
+permalink: /blog/:title
+---
+
+Since I'm pretty much all front end all the time at work, I've wanted to get some more full stack experience. I didn't start out with a whole lot of criteria, but just knew I wanted to get some API building experience under my belt and some more familiarity interacting directly with a database. Initially all I knew was that I wanted to have a separate API and front end client, and that I wanted the back end to handle user authentication. I also had it in my head that I wanted to use Rails on the back end and that I wanted to try out some new front end technologies like Angular Material.
+
+###### First go at it
+
+My first shot at the problem I decided I wanted to build a Rails API with an Angular front end. Not sure why I was so stuck on Rails but likely as I had some familiarity with it already. I decided to take advantage of Rails 5 new API mode and then attempted to tackle the challenge of Rails - Angular interaction. I struggled with finding resources that broke down the Rails API/front end client interaction in a way that I understood the how's and why's of everything that was going on. I was unable to find many Rails/Angular specific examples and the few tutorials I found assumed a greater familiarity with Rails APIs than I had.
+
+I ended up finding [A Vatsaev's tutorial](https://medium.com/@avatsaev/angular-2-and-ruby-on-rails-user-authentication-fde230ddaed8) which was an excellent step by step breakdown on creating a Rails REST API to interact with an Angular 2 client to accomplish user authentication. The Rails side used Devise token authentication and the front end employed Angular2 Token for user management.
+
+I learned a few things throughout this tutorial. Initially I was keen on trying Angular Material as I had heard/read many (mixed) reviews. I quickly became frustrated and how much longer it took to accomplish tasks that are *so easy* in Bootstrap, and the final straw was the lack of polish in its nav components (is it really so much to ask for a regular navbar?). So I switched to Materialize CSS, which was being used by the tutorial, and enjoyed having some visually different components to what I'm used to with Bootstrap.
+
+Overall, the tutorial was amazing and exactly what I was looking for as an introduction to building an API to interact with a front end client. Overall, however, I found the experience of using Rails to interact with Angular kind of clunky and I found it difficult to find resources beyond that initial tutorial.
+
+###### On to plan B
+
+Having gone through the motions of creating the Rails API and being somewhat unsatisfied with the development experience and simultaneously frustrated with the lack of beginner Rails API resources, I decided I wanted to try something different. I had always turned my nose up at the mention of Node (for no good reason) and after considerable deliberation I realized I should stop being stubborn and give it a shot before I dismissed it.
+
+Since I was entirely new to Node I thought it would be a good idea to stick with a front end technology that I know, so I landed on Angular. From there, the MEAN stack seemed a logical place to start. Initially, I was blown away by the amount of resources I was able to find for someone getting started with the MEAN stack. This in itself was hugely promising.
+
+I stumbled upon [Brad Traversy's Youtube Series](https://www.youtube.com/watch?v=uONz0lEWft0&list=PLillGF-RfqbZMNtaOXJQiDebNXjVapWPZ) on the MEAN stack front to back and was just blown away by how good it is. Seriously, if you're interested in getting going with MEAN I would highly recommend it. Throughout 10 videos, you build an API using Node, Express, and Mongodb/Mongoose to interact with an Angular client. Authentication is accomplished using javascript web tokens (JWTs) and the front end makes use of the angular2-jwt library to assist in user management.
+
+The tutorial also covers creating protected routes in the API and creating an AuthGuard to protect routes on the front end. At the end, he walks through how to deploy the app to Heroku and how to host a MongoDb on mLab.
+
+
+###### Building up
+
+I have now completed Traversy's tutorial series and have a [functional MEAN application](https://organizeyoself.herokuapp.com/) hosted with Heroku! I'm pretty excited about everything I've learned with Node and have been so pleasantly surprised by my experience of trying it out. To continue progressing my Node/Express/Mongodb experience I will be expanding this app into an organization app that will allow a user to set weekly milestones such as goals, budgets, todos, and more, as well as track progress in all these areas. I feel like I'm constantly running around like a chicken with its head cut off (is this how everyone in LA feels??) so this is mostly a selfish endeavour to get my stuff together.
+
+Some hurdles I can foresee having to learn my way through so far are:
+- Database design
+- API design/model interaction
+- Setting up a separate development database.
+
+Any advice is always so appreciated, and if anyone wants to see the project source code it's up on [my github](https://github.com/natmegs/mean)!
