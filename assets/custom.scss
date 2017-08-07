@@ -104,7 +104,7 @@ p {
 a {
   color: $content-light;
 }
-a:hover {
+a:hover, a:visited {
   color: $highlight;
   text-decoration: none;
 }
