@@ -3,6 +3,7 @@ layout: post
 title:  "MEAN Dive"
 date:   2017-08-06 18:59:30 -0700
 permalink: /blog/:title
+comments: true
 ---
 
 Since I'm pretty much all front end all the time at work, I've wanted to get some more full stack experience. I didn't start out with a whole lot of criteria, but just knew I wanted to get some API building experience under my belt and some more familiarity interacting directly with a database. Initially all I knew was that I wanted to have a separate API and front end client, and that I wanted the back end to handle user authentication. I also had it in my head that I wanted to use Rails on the back end and that I wanted to try out some new front end technologies like Angular Material.

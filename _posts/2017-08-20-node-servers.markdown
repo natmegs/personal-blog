@@ -3,6 +3,7 @@ layout: post
 title:  "Node Servers"
 date:   2017-08-20 14:59:30 -0700
 permalink: /blog/:title
+comments: true
 ---
 
 In the process of learning the MEAN stack, I’ve come across several tutorials that use Node functions and libraries but never explain how they work. Kind of like, here’s a Node function and you use it this way in this particular use case, just trust that it works and let’s move on. This way of learning has never really worked for me and usually leads me to only be able to use what’s being taught in the exact scenarios that it’s being introduced in. So I decided I needed to start from the ground up in Node specifically, learning how and why everything works.

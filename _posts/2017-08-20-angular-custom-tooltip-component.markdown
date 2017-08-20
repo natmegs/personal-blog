@@ -3,6 +3,7 @@ layout: post
 title:  "Angular Custom Tooltip Component"
 date:   2017-08-20 13:59:30 -0700
 permalink: /blog/:title
+comments: true
 ---
 
 At work I was recently tasked with the addition of a new (very minor) feature: a custom tooltip. At first I didn’t treat it like a feature (there must be something that already does what I need it to do right?) and assumed it would be a 5 minute bump in my day. Incorrect, somehow there was nothing I could find that gave me the ability to do precisely what this tooltip needed to do.
