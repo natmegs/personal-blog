@@ -186,28 +186,28 @@ li {
 // SOCIAL ICONS
 // ================================
 
-.twitter {
+.twitter, .twitter:visited {
   color: #555;
 }
 .twitter:hover {
   color: #7F00FF;
 }
 
-.email {
+.email, .email:visited {
   color: #555;
 }
 .email:hover {
   color: #0000FE;
 }
 
-.linkedin {
+.linkedin, .linkedin:visited {
   color: #555;
 }
 .linkedin:hover {
   color: #FF00FE;
 }
 
-.github {
+.github, .github:visited {
   color: #555
 }
 .github:hover {
