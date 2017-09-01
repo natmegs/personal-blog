@@ -72,7 +72,7 @@ a {
   border-bottom: 3px solid rgba(127,0,255,0.2);
   text-decoration: none;
   font-size: inherit;
-  color: inherit;
+  color: #333;
 }
 
 a:hover {
@@ -82,7 +82,7 @@ a:hover {
 
 a:active, a:visited, a:link {
   text-decoration: none;
-  color: inherit;
+  color: #333;
 }
 
 ul {
