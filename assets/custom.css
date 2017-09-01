@@ -80,7 +80,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:active, a:visited {
+a:active, a:visited, a:link {
   text-decoration: none;
   color: inherit;
 }
