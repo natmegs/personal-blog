@@ -2,190 +2,56 @@
 layout: default
 ---
 
-<header class="fullpage center-text row" id="home">
-  <div class="text-center name"><h1>Natalie</h1> <h1>SMITH</h1></div>
-</header>
-
-<div class="section" id="bio">
-  <div class="title">
-    <h2>Bio</h2>
-    <h3>Full Stack Engineer</h3>
-  </div>
-
-  <div class="bio-detail">
+<div class="container top">
+  <h1>Natalie Smith</h1>
+  <p><span class="purple-mute">console</span>.log(<span class="hotpink-mute">"Hello crazy world"</span>)</p>
+</div>
+<div class="container content">
+  <h2>I am a problem-solver</h2>
+  <p>I write code to solve human problems</p>
+  <p>I LOVE <span class="emphasis">Javascript</span></p>
+  <p>I enjoy building interactive user experiences in <span class="emphasis">Angular</span></p>
+  <p>I am learning <span class="emphasis">React</span> and it is really great</p>
+  <p>I like building APIs using <span class="emphasis">Node.js</span></p>
+  <p>I have tinkered with <span class="emphasis">Ruby on Rails</span></p>
+  <p>I code regularly in <span class="emphasis">C/C++</span> because variety is the spice of life</p>
+  <p>I want to have more <span class="emphasis">data visualization</span> in my life</p>
+</div>
+<div class="container content text-right">
+  <h2>Misc.</h2>
+  <p>I have a <span class="emphasis2">B.Engineering</span> from the University of Victoria</p>
+  <p>I majored in Biomedical Engineering with a specialization in Mechatronics</p>
+  <p>I am Canadian but currently living and working as a software engineer in Los Angeles</p>
+  <p>I have a <span class="emphasis2">spoiled</span> dog, Max</p>
+  <p>I like to cycle and olympic weightlift</p>
+  <p>I love <span class="emphasis2">brunch</span> more than almost anything else</p>
+</div>
+<div class="container content">
+  <h2>Sometimes I write</h2>
+  {% for p in site.posts %}
+  <a class="unstyled-link" href="{{p.url}}">
+    <h4 class="link blog-title">{{p.title}}</h4>
     <p>
-      I am a <strong>Canadian</strong> software developer living in sunny and congested <strong>Los Angeles</strong>.
+      {{ p.date | date: "%B %-d %Y" }}
     </p>
-    <p>
-      I currently work at a Software and Security company developing the front end of a business management web
-      application using <strong>Angular</strong>.
-    </p>
-    <p>
-      I create highly interactive and <strong>reactive</strong> user interfaces to display and
-      manipulate large amounts of data by communicating with a REST API.
-    </p>
-    <p>
-      On the back end, my favorite language is <strong>Ruby</strong> and I love building websites and web applications
-      with <strong>Rails</strong>.
-    </p>
-  </div>
-  <div class="bio-detail">
-    <p>
-      I have a Bachelor of <strong>Engineering</strong> degree from the University of Victoria (Victoria, BC).
-    </p>
-    <p>
-      I majored in Biomedical Engineering and specialized in <strong>Mechatronics</strong>.
-    </p>
-    <p>
-      Several major projects involving firmware, microcontrollers, image processing, and machine learning
-      inspired my love of Software.
-    </p>
-  </div>
-  <div>
-    <p>
-      <strong>In my spare time I:</strong>
-    </p>
-    <p>
-      Olympic weightlift and crossfit;
-    </p>
-    <p>
-      get walked by my dog, Max;
-    </p>
-    <p>
-      expand my brunch and bakery prowess.
-    </p>
-  </div>
+  </a>
+  {% endfor %}
+</div>
+<div class="container content text-right">
+  <h2>I would really love to hear from you</h2>
+  <p>Always seeking opportunities to <span class="emphasis3">collaborate</span> and <span class="emphasis3">learn</span> and <span class="emphasis3">explore</span></p>
+  <a href="https://twitter.com/natalie_megan" target="_blank" class="unstyled-link"><i class="fa fa-twitter twitter"></i></a>
+  <a href="mailto:nataliemegans@gmail.com" target="_blank" class="unstyled-link"><i class="fa fa-envelope-o email"></i></a>
+  <a href="https://www.linkedin.com/in/smithnm/" target="_blank" class="unstyled-link"><i class="fa fa-linkedin linkedin"></i></a>
+  <a href="https://github.com/natmegs" target="_blank" class="unstyled-link"><i class="fa fa-github github"></i></a>
+</div>
+<div class="container bottom content">
+  <h6>Shout Outs</h6>
+  <p class="small">This site is powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></p>
+  <p class="small">Inspired by the colours of the <a href="https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#CPC_series">Amstrad CPC palette</a></p>
 </div>
 
-<div class="section" id="skills">
-  <div class="title line-after">
-    <h2>My Toolbox</h2>
-  </div>
 
-  <div class="skill-container">
-    <div class="skill-box">
-      <div class="skill-row row">
-        <p><span class="bold-skill">HTML5 / </span>CSS3</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">Angular / </span>Bootstrap</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">Node / </span>Rails</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">Javascript / </span>Typescript</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">Version Control / </span>Git</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">Reactive Programming / </span>RxJS</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">Build Tools / </span>Gulp</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">RESTful APIs / </span>MVC</p>
-      </div>
-      <div class="skill-row row">
-        <p><span class="bold-skill">C / </span>MatLab</p>
-      </div>
-    </div>
-
-    <!-- <div class="skill-box">
-      <img src="/assets/images/MaxJump.jpg"/>
-    </div> -->
-    <div class="skill-box" id="web-details">
-      <h3>This website was created using:</h3>
-      <p>
-        Jekyll, GitHub Pages
-      </p>
-      <p>
-        Nicole Smith's skilled graphic design talent
-      </p>
-      <p>
-        My dog's model services
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="section" id="work">
-  <div class="title line-after">
-    <h2>My Work</h2>
-  </div>
-
-  <div class="work-example">
-    <div class="work-image">
-      <a href="http://thepartyonhighstreet.com/" target="_blank"><img src="{{site.baseurl}}/assets/images/TPOHS.png"/></a>
-    </div>
-    <div class="work-description text-center">
-      <h4>The Party On High Street</h4>
-      <h5>Band Website</h5>
-      <p>
-        Technologies: Ruby on Rails, Bootstrap, Heroku
-      </p>
-    </div>
-    <div class="clearfix"></div>
-  </div>
-</div>
-
-<div class="section" id="blog">
-  <div class="title">
-    <h2>Blog</h2>
-    <p>
-      There are <strong>so many</strong> smart people out there and I want to see/hear/read
-      what they have to say.
-    </p>
-    <p>
-      This is a place where I post the cool/interesting/useful content I have found that has
-      helped/intrigued me.
-    </p>
-    <p>
-      If I happen to solve a problem that smart people haven't already written about, I will do my
-      best to try to explain it here.
-    </p>
-    <h3>Let me know what you think!</h3>
-  </div>
-
-  <div class="posts">
-    {% for p in site.posts %}
-    <div class="each-post">
-      <a href="{{p.url}}">
-        <h2>{{p.title}}</h2>
-        <p>
-          {{ p.excerpt }}
-        </p>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
-
-</div>
-
-<div class="section" id="contact">
-  <div class="title">
-    <h2>Contact</h2>
-    <p>
-      Interested in having a website or web application built?
-    </p>
-    <p>
-      Want to collaborate?
-    </p>
-    <p>
-      Know of any podcasts I should be listening to while I commute in LA traffic?
-    </p>
-    <h3>I would love to hear from you!</h3>
-  </div>
-  <div class="contact-icons">
-    <a href="mailto:nataliemegans@gmail.com" target="_blank"><i class="fa fa-envelope-o" id="email"></i></a>
-    <a href="https://www.linkedin.com/in/smithnm/" target="_blank"><i class="fa fa-linkedin" id="linkedin"></i></a>
-    <a href="https://github.com/natmegs" target="_blank"><i class="fa fa-github" id="github"></i></a>
-    <a href="https://twitter.com/natalie_megan" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>
-    <a href="https://www.instagram.com/nataliemegans/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>
-  </div>
-</div>
 
 <!-- <div class="home">
 

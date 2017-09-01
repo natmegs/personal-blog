@@ -8,7 +8,7 @@ comments: true
 
 Since I'm pretty much all front end all the time at work, I've wanted to get some more full stack experience. I didn't start out with a whole lot of criteria, but just knew I wanted to get some API building experience under my belt and some more familiarity interacting directly with a database. Initially all I knew was that I wanted to have a separate API and front end client, and that I wanted the back end to handle user authentication. I also had it in my head that I wanted to use Rails on the back end and that I wanted to try out some new front end technologies like Angular Material.
 
-###### First go at it
+### First go at it
 
 My first shot at the problem I decided I wanted to build a Rails API with an Angular front end. Not sure why I was so stuck on Rails but likely as I had some familiarity with it already. I decided to take advantage of Rails 5 new API mode and then attempted to tackle the challenge of Rails - Angular interaction. I struggled with finding resources that broke down the Rails API/front end client interaction in a way that I understood the how's and why's of everything that was going on. I was unable to find many Rails/Angular specific examples and the few tutorials I found assumed a greater familiarity with Rails APIs than I had.
 
@@ -18,7 +18,7 @@ I learned a few things throughout this tutorial. Initially I was keen on trying 
 
 Overall, the tutorial was amazing and exactly what I was looking for as an introduction to building an API to interact with a front end client. Overall, however, I found the experience of using Rails to interact with Angular kind of clunky and I found it difficult to find resources beyond that initial tutorial.
 
-###### On to plan B
+### Rails to Node
 
 Having gone through the motions of creating the Rails API and being somewhat unsatisfied with the development experience and simultaneously frustrated with the lack of beginner Rails API resources, I decided I wanted to try something different. I had always turned my nose up at the mention of Node (for no good reason) and after considerable deliberation I realized I should stop being stubborn and give it a shot before I dismissed it.
 
@@ -29,7 +29,7 @@ I stumbled upon [Brad Traversy's Youtube Series](https://www.youtube.com/watch?v
 The tutorial also covers creating protected routes in the API and creating an AuthGuard to protect routes on the front end. At the end, he walks through how to deploy the app to Heroku and how to host a MongoDb on mLab.
 
 
-###### Building up
+### Next Challenges
 
 I have now completed Traversy's tutorial series and have a [functional MEAN application](https://organizeyoself.herokuapp.com/) hosted with Heroku! I'm pretty excited about everything I've learned with Node and have been so pleasantly surprised by my experience of trying it out. To continue progressing my Node/Express/Mongodb experience I will be expanding this app into an organization app that will allow a user to set weekly milestones such as goals, budgets, todos, and more, as well as track progress in all these areas. I feel like I'm constantly running around like a chicken with its head cut off (is this how everyone in LA feels??) so this is mostly a selfish endeavour to get my stuff together.
 

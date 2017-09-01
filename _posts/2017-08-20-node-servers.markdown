@@ -8,11 +8,11 @@ comments: true
 
 In the process of learning the MEAN stack, I’ve come across several tutorials that use Node functions and libraries but never explain how they work. Kind of like, here’s a Node function and you use it this way in this particular use case, just trust that it works and let’s move on. This way of learning has never really worked for me and usually leads me to only be able to use what’s being taught in the exact scenarios that it’s being introduced in. So I decided I needed to start from the ground up in Node specifically, learning how and why everything works.
 
-###### De-Mystifying Node
+### De-Mystifying Node
 
 I started the [Understand Nodejs course](https://www.udemy.com/understand-nodejs/learn/v4/overview) from Udemy and so far it’s been exactly what I needed. The instructor is fantastic and really makes you understand the core functionality of Node and explains what’s actually happening under the hood. It has totally demystified many core concepts within Node for me and I am gaining an understanding of how to use the Node core libraries to build custom and tailored applications. I am about 2/3rds of the way through the course now and just finished the section dealing with creating servers.
 
-###### Servers
+### Servers
 
 This is such a core concept in Node that I thought I would go through my learning process and include code samples with detailed comments that really helped  me understand what was going on. I’ve tried to be painfully detailed in the comments to really break down what’s happening at each step. We started with a very basic server that returned plain text in its response.
 
