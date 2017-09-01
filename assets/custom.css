@@ -45,6 +45,7 @@ h6 {
 p {
 	line-height: 1.75;
   margin: 14px 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
 span {
