@@ -3,7 +3,7 @@
 // GENERAL
 // ================================
 
-body {
+* {
   box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
