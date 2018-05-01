@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "<ng-template>, <ng-container>, and <ng-content> in Angular"
+title:  "ng-template, ng-container, and ng-content in Angular"
 date:   2018-04-30 14:59:30 -0700
 permalink: /blog/:title
 comments: true
