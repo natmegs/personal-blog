@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Natalie's Blog
 email: nataliemegans@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Javascript, etc.
+description: Javascript, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "nataliesmith.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nataliemegans
