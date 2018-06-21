@@ -30,12 +30,14 @@
   {% if author %}
   <meta property="article:author" content="{{ author.name }}" />
   {% endif %}
+  <link rel="shortcut icon" href="{{"/assets/images/favicon.ico" | relative_url}}">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="{{ site.baseurl}}/assets/grid.css"> -->
   <link rel="stylesheet" href="/assets/custom.css">
+  <link rel="stylesheet" href="/assets/prism.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
@@ -43,7 +45,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/9c01538e56.js"></script>
-  <!-- <script type="text/javascript" src="{{ "/assets/scripts/jquery.pagepiling.js" | relative_url }}"></script> -->
+  <script type="text/javascript" src="{{ "/assets/scripts/prism.js" | relative_url }}"></script>
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}

@@ -1,7 +1,6 @@
 ---
 ---
 
-
 // ================================
 // GENERAL
 // ================================
@@ -123,6 +122,16 @@ li {
   margin-bottom: 20px;
 }
 
+.post {
+  img {
+    max-width: 100%;
+  }
+
+  .highlight {
+    margin: 20px 0;
+  }
+}
+
 .post.container {
   margin-top: 0;
   margin-bottom: 80px;
@@ -164,7 +173,7 @@ li {
   background-color: rgba(255,0,128,0.3);
 }
 
-.code {
+code, .code {
   background-color: rgba(84, 84, 84, 0.1);
 }
 
