@@ -7,7 +7,7 @@ comments: true
 image: "/assets/images/posts/With-Filters.png"
 ---
 
-The Angular Material [docs](https://material.angular.io/components/table/overview#filtering) more or less leave table filtering as an exercise for the reader. Here I'll walk through one possible solution for adding multiple column filters to a table using Angular Material.
+The Angular Material [docs](https://material.angular.io/components/table/overview#filtering) more or less leave table filtering as an exercise for the reader. Here I'll walk through one possible solution for adding multiple column filters to a table using Angular Material. I worked through this implementation using examples from some very smart and helpful people in this [GitHub issue](https://github.com/angular/material2/issues/6178) - check it out for alternatives!
 
 ###### Use Case
 
