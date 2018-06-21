@@ -210,7 +210,7 @@ And we will watch the value of the filter inputs and modify this filter object a
   }
 ```
 
-And.... still doesn't work. We have to change the data source's `filterPredicate` to tell it how to interpret the filter information.
+And... still doesn't work. We have to change the data source's `filterPredicate` to tell it how to interpret the filter information.
 
 ```typescript
   constructor() {
