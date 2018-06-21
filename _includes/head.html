@@ -6,15 +6,31 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@natalie_megan">
+  <meta name="twitter:creator" content="@natalie_megan">
+
   <meta property="og:site_name" content="{{ site.title }}">
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
   <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  <meta name="twitter:title" content="{{ page.title }}">
   {% else %}
   <meta property="og:title" content="{{ site.title }}">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ site.description }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+  {% endif %}
+  {% if page.image %}
+  <meta name="twitter:image" content="{{ page.image | relative_url }}">
+  {% else %}
+  <meta name="twitter:image" content="{{ site.image | relative_url }}">
   {% endif %}
   {% if page.date %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
