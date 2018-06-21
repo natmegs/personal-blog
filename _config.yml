@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "nataliesmith.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nataliemegans
 github_username:  natmegs
-image: /assets/images/header.jpg
+image: "/assets/images/header.jpg"
 
 permalink: /:year/:month/:day/:title
 # Build settings
